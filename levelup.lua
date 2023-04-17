@@ -8,5 +8,4 @@ old = hookmetamethod(game,"__index",function(x,y)
     end 
     return old(x,y)
 end)
-_G.wl_key="f1b50e5d8f8f47288d87a0e440190f582b2d4c9a"
 loadstring(game:HttpGet('https://scripts.luawl.com/hosted/5062/18849/LevelUpPro.lua'))()
